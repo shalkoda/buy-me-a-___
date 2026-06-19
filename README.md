@@ -7,6 +7,16 @@ researchers, and indie creators. Creators can launch branded support pages such 
 Buy Me A GPU, Buy Me A Taco, or Fund My GPU Cluster, then accept payments through
 their own Stripe or PayPal accounts.
 
+## Local Preview
+
+This repo currently includes a dependency-free static prototype.
+
+```sh
+python3 -m http.server 4173
+```
+
+Then open <http://localhost:4173>.
+
 ## Repository Model
 
 This repository is source-available, not open source.

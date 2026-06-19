@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buy Me A ___</title>
+    <meta
+      name="description"
+      content="Create creator funding pages that sound like you."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Buy Me A home">Buy Me A ___</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#builder">Builder</a>
+        <a href="#vectors">Icons</a>
+        <a href="CONTRIBUTING.md">Contribute</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="builder">
+        <div class="hero-copy">
+          <p class="eyebrow">Creator funding pages</p>
+          <h1>Funding pages that sound like you.</h1>
+          <p class="lede">
+            Launch a branded support page like Buy Me A GPU, Buy Me A Taco, or
+            Fund My Lab without forcing your audience into someone else's voice.
+          </p>
+        </div>
+
+        <section class="builder" aria-label="Funding page builder">
+          <div class="field">
+            <label for="phrase">Page phrase</label>
+            <input
+              id="phrase"
+              name="phrase"
+              type="text"
+              value="Buy Me A GPU"
+              maxlength="48"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="field">
+            <label for="creator">Creator name</label>
+            <input
+              id="creator"
+              name="creator"
+              type="text"
+              value="Nova Labs"
+              maxlength="36"
+              autocomplete="off"
+            />
+          </div>
+
+          <fieldset class="icon-picker">
+            <legend>Icon</legend>
+            <div class="icon-options" id="iconOptions"></div>
+          </fieldset>
+
+          <article class="page-preview" aria-label="Funding page preview">
+            <div class="preview-icon" id="previewIcon" aria-hidden="true"></div>
+            <p class="preview-creator" id="previewCreator">Nova Labs</p>
+            <h2 id="previewPhrase">Buy Me A GPU</h2>
+            <p>
+              Help fund the next build. Support goes straight to the creator's
+              connected payment account.
+            </p>
+            <div class="amount-row" aria-label="Example support amounts">
+              <button type="button">$5</button>
+              <button type="button">$15</button>
+              <button type="button">$50</button>
+            </div>
+            <button class="primary-action" type="button">Support this page</button>
+          </article>
+        </section>
+      </section>
+
+      <section class="section" id="vectors">
+        <div class="section-heading">
+          <p class="eyebrow">Public assets</p>
+          <h2>Reusable funding-page icons</h2>
+          <p>
+            Community icon contributions live in <code>public/vectors/</code>
+            and are tracked with simple metadata.
+          </p>
+        </div>
+        <div class="vector-grid" id="vectorGrid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Source-available product code.</span>
+      <span>MIT-licensed vector assets.</span>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
