@@ -3,15 +3,21 @@ const fallbackIcons = [
     id: "gpu",
     label: "GPU",
     keywords: ["gpu", "graphics card", "ai", "compute", "cluster"],
+    titleMatches: ["Buy Me A GPU", "Fund My GPU Cluster"],
     file: "gpu.svg",
     license: "MIT",
+    provider: "SVG Repo",
+    providerUrl: "https://www.svgrepo.com",
   },
   {
     id: "taco",
     label: "Taco",
     keywords: ["taco", "food", "snack", "lunch"],
+    titleMatches: ["Buy Me A Taco"],
     file: "taco.svg",
     license: "MIT",
+    provider: "SVG Repo",
+    providerUrl: "https://www.svgrepo.com",
   },
 ];
 
@@ -71,13 +77,20 @@ function renderVectorGrid(icons) {
 
   for (const icon of icons) {
     const keywords = icon.keywords.join(", ");
+    const titleMatches = icon.titleMatches || [];
+    const provider = icon.provider || "Unknown provider";
+    const providerUrl = icon.providerUrl || "#";
     const card = document.createElement("article");
     card.className = "vector-card";
     card.innerHTML = `
       <img src="${vectorPath(icon.file)}" alt="" />
       <h3>${icon.label}</h3>
       <p>${keywords}</p>
+      <p class="title-matches">${titleMatches.join(" / ")}</p>
       <small>${icon.license}</small>
+      <a class="provider-credit" href="${providerUrl}" rel="noopener">
+        Vectors and icons by ${provider}
+      </a>
     `;
     vectorGrid.append(card);
   }

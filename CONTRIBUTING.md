@@ -26,8 +26,11 @@ Each icon should include:
 - `id`: stable lowercase identifier, using hyphens
 - `label`: human-readable name
 - `keywords`: phrases that should find this icon
+- `titleMatches`: popular funding-page titles this icon should match
 - `file`: SVG filename
 - `license`: license for the SVG
+- `provider`: original icon provider or contributor name
+- `providerUrl`: source, profile, or provider URL when available
 
 Example:
 
@@ -36,8 +39,11 @@ Example:
   "id": "gpu",
   "label": "GPU",
   "keywords": ["gpu", "graphics card", "ai", "compute", "cluster"],
+  "titleMatches": ["Buy Me A GPU", "Fund My GPU Cluster"],
   "file": "gpu.svg",
-  "license": "MIT"
+  "license": "MIT",
+  "provider": "SVG Repo",
+  "providerUrl": "https://www.svgrepo.com"
 }
 ```
 
@@ -50,6 +56,8 @@ Example:
 - Avoid trademarks and brand logos unless you own the rights.
 - Remove scripts, event handlers, external references, and unnecessary metadata.
 - Use descriptive filenames like `robot-arm.svg`, `matcha.svg`, or `server.svg`.
+- Credit the original provider or artist in `icons.json` for any non-original SVG.
+- Map each icon to likely page titles with `titleMatches` when importing asset data.
 
 ## Product Contributions
 

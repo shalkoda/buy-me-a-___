@@ -30,6 +30,13 @@ The vector/icon contribution area is different: community-contributed assets in
 `public/vectors/` are intended to be reusable and are licensed permissively so
 people can contribute funding-page icons freely.
 
+Current public vectors are credited to
+[SVG Repo](https://www.svgrepo.com). Contributors should keep provider/source
+metadata with any icon they add.
+
+Vector metadata also includes `titleMatches` so imported icon data can map
+assets to popular creator phrases such as `Buy Me A GPU`.
+
 ## What Is Public
 
 - Vector/icon assets in `public/vectors/`

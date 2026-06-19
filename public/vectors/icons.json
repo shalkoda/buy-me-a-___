@@ -3,14 +3,20 @@
     "id": "gpu",
     "label": "GPU",
     "keywords": ["gpu", "graphics card", "ai", "compute", "cluster"],
+    "titleMatches": ["Buy Me A GPU", "Fund My GPU Cluster"],
     "file": "gpu.svg",
-    "license": "MIT"
+    "license": "MIT",
+    "provider": "SVG Repo",
+    "providerUrl": "https://www.svgrepo.com"
   },
   {
     "id": "taco",
     "label": "Taco",
     "keywords": ["taco", "food", "snack", "lunch"],
+    "titleMatches": ["Buy Me A Taco"],
     "file": "taco.svg",
-    "license": "MIT"
+    "license": "MIT",
+    "provider": "SVG Repo",
+    "providerUrl": "https://www.svgrepo.com"
   }
 ]
