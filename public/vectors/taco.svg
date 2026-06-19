@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Taco</title>
+  <path d="M8 40c2-16 12-26 24-26s22 10 24 26H8z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M14 40h36M20 32l6 4 6-6 6 6 6-4" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25" cy="25" r="2" fill="currentColor"/>
+  <circle cx="39" cy="25" r="2" fill="currentColor"/>
+</svg>

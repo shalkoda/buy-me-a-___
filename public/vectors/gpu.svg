@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">GPU</title>
+  <rect x="10" y="18" width="36" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="28" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M46 26h8v12h-8M16 12v6M24 12v6M32 12v6M40 12v6M16 46v6M24 46v6M32 46v6M40 46v6" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+</svg>

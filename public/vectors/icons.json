@@ -1,0 +1,16 @@
+[
+  {
+    "id": "gpu",
+    "label": "GPU",
+    "keywords": ["gpu", "graphics card", "ai", "compute", "cluster"],
+    "file": "gpu.svg",
+    "license": "MIT"
+  },
+  {
+    "id": "taco",
+    "label": "Taco",
+    "keywords": ["taco", "food", "snack", "lunch"],
+    "file": "taco.svg",
+    "license": "MIT"
+  }
+]
